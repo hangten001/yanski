@@ -11,24 +11,25 @@ body{
     background-image: url(images/background_2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
-.navbar{
-    opacity: .9;
-}
-.nav-item{
-    border: none;
-   
-}
-.nav-item:hover{
-    color: #fff;
-    border-bottom: .2rem solid #fff;
-}
-.navbar-brand img{
-    border-radius: 50%;
-    position: relative;
-    z-index: 1;
-}
-section{
+.container-fluid{
     width: 100%;
     height: 100vh;
+}
+.list{
+    list-style-type: none;
+    color: #fff;
+}
+.icon{
+    background-color: #789;
+    padding: .5rem;
+}
+.icon i{
+    padding: .3rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.icon i:hover{
+    color: #6999ff;
 }
